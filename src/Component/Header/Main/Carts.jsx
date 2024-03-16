@@ -1,5 +1,6 @@
 
-
+import PropTypes from 'prop-types';
+import Cart from './Card/Cart';
 
 const Carts = ({handle}) => {
      return (
@@ -19,12 +20,16 @@ const Carts = ({handle}) => {
                </tr>
                </thead>
                <tbody>
+               
                {/* <!-- row 1 --> */}
                <tr>
                <th>1</th>
-               <td></td>
-               <td></td>
-               <td></td>
+               <td>
+               {
+                         handle.map(cart => <Cart key={cart.id}cart={cart}></Cart>)
+                    }
+               </td>
+               
                </tr>
                {/* <!-- row 2 --> */}
                <tr>
@@ -58,8 +63,15 @@ const Carts = ({handle}) => {
                </table>
                </div>
                </div>
+               <div>
+                    
+               </div>
           </div>
      );
 };
+
+Carts.propTypes = {
+     handle:PropTypes.array
+}
 
 export default Carts;
