@@ -1,12 +1,13 @@
 
 import './App.css'
+import Header from './Component/Header/Header'
 
 function App() {
   
 
   return (
     <>
-      <h3 className='text-7xl'>Hellow Coking</h3>
+      <Header></Header>
     </>
   )
 }
