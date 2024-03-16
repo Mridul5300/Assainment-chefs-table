@@ -3,13 +3,60 @@
 
 const Carts = () => {
      return (
-          <div className='md:w-1/3 border-2 border-red-200 bg-slate-50 '>
-               <h2 className='text-2xl mr-60 '>Want to cook:</h2>
+          <div className='mr-28 p-8 '>
+               <h2 className='text-2xl mb-3 text-center'>Want to cook:</h2>
                <hr />
-               <div className='flex gap-2'>
-                    <h1>Name</h1>
-                    <h2>Time</h2>
-                     <h3>Calories</h3>
+               <div>
+               <div className="overflow-x-auto">
+          <table className="table">
+               {/* header */}
+              <thead>
+               <tr>
+               <th></th>
+               <th>Name</th>
+               <th>Time</th>
+               <th>Calories</th>
+               </tr>
+               </thead>
+               <tbody>
+               {/* <!-- row 1 --> */}
+               <tr>
+               <th>1</th>
+               <td></td>
+               <td></td>
+               <td></td>
+               </tr>
+               {/* <!-- row 2 --> */}
+               <tr>
+               <th>2</th>
+               <td></td>
+               <td></td>
+               <td></td>
+               </tr>
+               {/* row 3 */}
+               <tr>
+               <th>3</th>
+               <td></td>
+               <td></td>
+               <td></td>
+               </tr>
+               {/* row 4 */}
+               <tr>
+               <th>4</th>
+               <td></td>
+               <td></td>
+               <td></td>
+               </tr>
+               {/* row 5 */}
+               <tr>
+               <th>5</th>
+               <td></td>
+               <td></td>
+               <td></td>
+               </tr>
+               </tbody>
+               </table>
+               </div>
                </div>
           </div>
      );

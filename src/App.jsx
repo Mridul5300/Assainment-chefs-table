@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className='md:flex justify-center   mt-10  gap-10'>
+      <div className='md:flex justify-center gap-6 mt-10 '>
         <div>
         <Cards></Cards>
         </div>

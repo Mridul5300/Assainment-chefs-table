@@ -19,7 +19,7 @@ const Card = ({card}) => {
                     <span>{preparing_time}</span>
                     <span>{calories}</span>
                </div>
-               
+               <button className='btn bg-green-400 text-black my-3 '>Want to Cook</button>
           </div>
      );
 };

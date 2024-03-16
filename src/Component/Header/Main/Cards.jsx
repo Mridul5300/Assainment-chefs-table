@@ -11,7 +11,7 @@ const Cards = () => {
                .then(data => setCards(data))
           },[])
      return (
-          <div className="md:w-2/3 grid grid-cols-2">
+          <div className="grid grid-cols-2">
                {
                     cards.map(card => <Card
                               key={card.id}
