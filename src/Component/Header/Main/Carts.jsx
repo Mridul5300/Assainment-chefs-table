@@ -1,10 +1,10 @@
 
 
 
-const Carts = () => {
+const Carts = ({handle}) => {
      return (
           <div className='mr-28 p-8 '>
-               <h2 className='text-2xl mb-3 text-center'>Want to cook:</h2>
+               <h2 className='text-2xl mb-3 text-center'>Want to cook : {handle.length}</h2>
                <hr />
                <div>
                <div className="overflow-x-auto">

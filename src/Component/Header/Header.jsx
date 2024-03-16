@@ -29,7 +29,7 @@ const Header = () => {
           </div>
           <div className="navbar-end">
           <input type="text" placeholder='Search'  className="input input-bordered w-full max-w-xs mr-5 rounded-full" />
-          <span className="mr-2 text-green-400   "><VscAccount></VscAccount></span>
+          <span className="mr-2 text-green-400 text-5xl "><VscAccount></VscAccount></span>
           </div>
           </div>
           <div className="hero h-96 w-3/4 container mx-auto"style={{backgroundImage:`url:${Image}`, backgroundSize:"cover", backgroundPosition:"center"}}>
