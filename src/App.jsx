@@ -1,6 +1,8 @@
 
 import './App.css'
 import Header from './Component/Header/Header'
+import Cards from './Component/Header/Main/Cards'
+import Carts from './Component/Header/Main/Carts'
 
 function App() {
   
@@ -8,6 +10,14 @@ function App() {
   return (
     <>
       <Header></Header>
+      <div className='md:flex justify-center   mt-10  gap-10'>
+        <div>
+        <Cards></Cards>
+        </div>
+        <div>
+          <Carts></Carts>
+        </div>
+      </div>
     </>
   )
 }

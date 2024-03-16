@@ -1,5 +1,5 @@
 import { VscAccount } from "react-icons/vsc";
-import background from "../../assets/img/mario-ciF10nRBW7o-unsplash.jpg"
+import Image from "../../assets/img/mario-ciF10nRBW7o-unsplash.jpg"
 
 const Header = () => {
      return (
@@ -32,7 +32,7 @@ const Header = () => {
           <span className="mr-2 text-green-400   "><VscAccount></VscAccount></span>
           </div>
           </div>
-          <div className="hero h-96 w-3/4 container mx-auto"style={{backgroundImage:`url${background}`, backgroundSize:"cover", backgroundPosition:"center"}}>
+          <div className="hero h-96 w-3/4 container mx-auto"style={{backgroundImage:`url:${Image}`, backgroundSize:"cover", backgroundPosition:"center"}}>
                <div className="hero-overlay bg-opacity-60"></div>
                <div className="hero-content text-center text-neutral-content">
                <div className="max-w-md">
@@ -44,7 +44,7 @@ const Header = () => {
                </div>
                <div className="text-center mt-10">
                     <h2 className="text-5xl">Our Recipes</h2>
-                    <p>Cooking, the act of using heat to prepare food for consumption. <br />Cooking is as old as civilization itself, and observers have perceived it as both an art and a science.</p>
+                    <p className="mt-4">Cooking, the act of using heat to prepare food for consumption. <br />Cooking is as old as civilization itself, and observers have perceived it as both an art and a science.</p>
               </div>  
           </div>
      );
