@@ -5,8 +5,8 @@
        "recipe_name": "Chicken Teriyaki",
        "short_description": "A classic Japanese dish featuring tender chicken in a flavorful teriyaki sauce.",
        "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
-       "preparing_time": "30 min",
-       "calories": "320 calories"
+       "preparing_time": 30 ,
+       "calories": 320 
      },
      {
        "recipe_image": "https://i.ibb.co/P6Y6LCm/homescreenify-s-A3wym-Yqya-I-unsplash.jpg",
@@ -14,8 +14,8 @@
        "recipe_name": "Spaghetti Bolognese",
        "short_description": "A hearty Italian pasta dish with rich tomato sauce and savory ground beef.",
        "ingredients": ["400 g spaghetti", "300 g ground beef", "500 g tomato sauce", "100 g onion"],
-       "preparing_time": "45 min",
-       "calories": "450 calories"
+       "preparing_time": 45,
+       "calories": 450 
      },
      {
        "recipe_image": "https://i.ibb.co/6mcJP3K/tania-melnyczuk-xe-Tv9-N2-Fj-XA-unsplash.jpg",
@@ -23,8 +23,8 @@
        "recipe_name": "Vegetable Stir-Fry",
        "short_description": "A colorful and nutritious dish featuring a variety of fresh vegetables stir-fried to perfection.",
        "ingredients": ["300 g mixed vegetables (bell peppers, carrots, broccoli)", "150 g tofu", "50 ml soy sauce", "30 ml sesame oil"],
-       "preparing_time": "25 min",
-       "calories": "220 calories"
+       "preparing_time": 25 ,
+       "calories": 220 
      },
      {
        "recipe_image": "https://i.ibb.co/kcpkvBk/max-griss-D9f-Amtj-C284-unsplash.jpg",
@@ -32,8 +32,8 @@
        "recipe_name": "Mushroom Risotto",
        "short_description": "A creamy and comforting Italian rice dish flavored with earthy mushrooms and Parmesan cheese.",
        "ingredients": ["300 g Arborio rice", "200 g mushrooms", "1 liter vegetable broth", "100 g Parmesan cheese"],
-       "preparing_time": "40 min",
-       "calories": "380 calories"
+       "preparing_time": 40 ,
+       "calories": 380 
      },
      {
        "recipe_image": "https://i.ibb.co/2KTY898/food-photographer-jennifer-pallian-g-RZYR210m0-U-unsplash.jpg",
@@ -41,8 +41,8 @@
        "recipe_name": "Chocolate Cake",
        "short_description": "Indulge in this decadent chocolate cake with a moist and rich texture.",
        "ingredients": ["200 g all-purpose flour", "150 g sugar", "100 g cocoa powder", "200 ml milk"],
-       "preparing_time": "50 min",
-       "calories": "300 calories"
+       "preparing_time": 50 ,
+       "calories": 300 
      },
      {
        "recipe_image": "https://i.ibb.co/zNbhPZG/anna-pelzer-IGf-IGP5-ONV0-unsplash.jpg",
@@ -50,8 +50,8 @@
        "recipe_name": "Greek Salad",
        "short_description": "A refreshing salad featuring crisp lettuce, juicy tomatoes, tangy olives, and creamy feta cheese.",
        "ingredients": ["200 g lettuce", "150 g cherry tomatoes", "100 g cucumber", "50 g olives", "100 g feta cheese"],
-       "preparing_time": "15 min",
-       "calories": "180 calories"
+       "preparing_time": 15 ,
+       "calories": 180 
      }
      
    ]

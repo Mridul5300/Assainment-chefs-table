@@ -18,7 +18,7 @@ function Cart({cart,clickMe}) {
 
 Cart.propTypes = {
      cart:PropTypes.object,
-     currentHandle : PropTypes.func
+     clickMe : PropTypes.func
      
 };
 

@@ -26,11 +26,11 @@ import { ToastContainer, toast } from 'react-toastify';
       }  
   }
 
-  const currentHandle = current => {
-          
+  const currentHandle =(current) => {
+  
          const wenCurrent = [...currentcoook,current]
          setCurrentCook(wenCurrent)
-      
+        
   }
 
       function clickMe (cart){
