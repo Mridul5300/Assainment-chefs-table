@@ -8,64 +8,29 @@ const Carts = ({handle}) => {
                <h2 className='text-2xl mb-3 text-center'>Want to cook : {handle.length}</h2>
                <hr />
                <div>
-               <div className="overflow-x-auto">
-          <table className="table">
-               {/* header */}
-              <thead>
-               <tr>
-               <th></th>
-               <th>Name</th>
-               <th>Time</th>
-               <th>Calories</th>
-               </tr>
-               </thead>
-               <tbody>
-               
-               {/* <!-- row 1 --> */}
-               <tr>
-               <th>1</th>
-               <td>
+                    <div className='flex md:gap-10 gap-20'>
+                         <h2>Name</h2>
+                         <h3 className='ml-3'>Time</h3>
+                         <h4>Calories</h4>
+                    </div>
+                    <hr />
+               <div>
                {
                          handle.map(cart => <Cart key={cart.id}cart={cart}></Cart>)
                     }
-               </td>
-               
-               </tr>
-               {/* <!-- row 2 --> */}
-               <tr>
-               <th>2</th>
-               <td></td>
-               <td></td>
-               <td></td>
-               </tr>
-               {/* row 3 */}
-               <tr>
-               <th>3</th>
-               <td></td>
-               <td></td>
-               <td></td>
-               </tr>
-               {/* row 4 */}
-               <tr>
-               <th>4</th>
-               <td></td>
-               <td></td>
-               <td></td>
-               </tr>
-               {/* row 5 */}
-               <tr>
-               <th>5</th>
-               <td></td>
-               <td></td>
-               <td></td>
-               </tr>
-               </tbody>
-               </table>
                </div>
                </div>
+                <hr />
                <div>
-                    
+                    <h2 className='text-2xl mb-3 text-center'>Currently cooking:</h2>
                </div>
+               <hr />
+               <div  className='flex gap-12'>
+               <h2>Name</h2>
+               <h3>Time</h3>
+               <h4>Calories</h4>
+               </div>
+               <hr />
           </div>
      );
 };
