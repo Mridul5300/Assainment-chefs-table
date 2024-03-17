@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { IoMdTime } from "react-icons/io";
 import { RiFireLine } from "react-icons/ri";
 
+
 const Card = ({card,  handleEvent}) => {
      const{recipe_name, recipe_image, short_description,ingredients,preparing_time,calories}=card
      return (
@@ -23,7 +24,9 @@ const Card = ({card,  handleEvent}) => {
                     <span>{calories}</span>
                </div>
                <button onClick={() => handleEvent (card)} className='btn bg-green-400 text-black my-3 '>Want to Cook</button>
+          
           </div>
+
      );
 };
 
