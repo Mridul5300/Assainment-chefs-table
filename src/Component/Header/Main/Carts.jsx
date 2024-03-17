@@ -3,8 +3,13 @@ import PropTypes from 'prop-types';
 import Cart from './Card/Cart';
 
 const Carts = ({handle}) => {
+     
+
+
+
      return (
           <div className='mr-28 p-8 '>
+               {/* went section */}
                <h2 className='text-2xl mb-3 text-center'>Want to cook : {handle.length}</h2>
                <hr />
                <div>
@@ -25,6 +30,7 @@ const Carts = ({handle}) => {
                     <h2 className='text-2xl mb-3 text-center'>Currently cooking:</h2>
                </div>
                <hr />
+               {/* current section */}
                <div  className='flex gap-12'>
                <h2>Name</h2>
                <h3>Time</h3>

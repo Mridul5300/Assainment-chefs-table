@@ -4,6 +4,7 @@ import Image from "../../assets/img/mario-ciF10nRBW7o-unsplash.jpg"
 const Header = () => {
      return (
           <div>
+               {/* Navbar section */}
           <div className="navbar container mx-auto px-20 ">
           <div className="navbar-start">
           <div className="dropdown">
@@ -29,9 +30,10 @@ const Header = () => {
           </div>
           <div className="navbar-end">
           <input type="text" placeholder='Search'  className="input input-bordered w-full max-w-xs mr-5 rounded-full" />
-          <span className="mr-2 text-green-400 text-5xl "><VscAccount></VscAccount></span>
+          <span className="mr-2 text-green-400 text-5xl"><VscAccount></VscAccount></span>
           </div>
           </div>
+          {/* Hero Banner Section */}
           <div className="hero h-96 w-3/4 container mx-auto"style={{backgroundImage:`url:${Image}`, backgroundSize:"cover", backgroundPosition:"center"}}>
                <div className="hero-overlay bg-opacity-60"></div>
                <div className="hero-content text-center text-neutral-content">
@@ -42,6 +44,7 @@ const Header = () => {
                </div>
                </div>
                </div>
+               {/* dynamic api site */}
                <div className="text-center mt-10">
                     <h2 className="text-5xl">Our Recipes</h2>
                     <p className="mt-4">Cooking, the act of using heat to prepare food for consumption. <br />Cooking is as old as civilization itself, and observers have perceived it as both an art and a science.</p>
