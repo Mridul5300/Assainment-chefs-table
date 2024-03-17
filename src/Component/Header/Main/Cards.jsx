@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Card from "./Card/Card";
 import PropTypes from 'prop-types';
  
-const Cards = ({handleEvent}) => {
+const Cards = ({handleEvent,currentHandle}) => {
           const [cards, setCards] = useState([]);
 
           useEffect(() =>{
@@ -11,13 +11,13 @@ const Cards = ({handleEvent}) => {
                .then(data => setCards(data))
           },[])
      return (
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-1 md:grid-cols-2">
                {
                     cards.map(card => <Card
-                         key={card.id}
+                         key={card.recipe_id}
                           card={card}
                          handleEvent={handleEvent}
-                         
+                         currentHandle={currentHandle}
                           ></Card>)
                }
           </div>
@@ -26,7 +26,7 @@ const Cards = ({handleEvent}) => {
 
 Cards.propTypes ={
      handleEvent:PropTypes.func,
-     CurrentHandle : PropTypes.fumc
+     currentHandle : PropTypes.func
 }
 
 export default Cards;

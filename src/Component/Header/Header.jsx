@@ -1,5 +1,5 @@
 import { VscAccount } from "react-icons/vsc";
-import Image from "../../assets/img/mario-ciF10nRBW7o-unsplash.jpg"
+
 
 const Header = () => {
      return (
@@ -34,15 +34,17 @@ const Header = () => {
           </div>
           </div>
           {/* Hero Banner Section */}
-          <div className="hero h-96 w-3/4 container mx-auto"style={{backgroundImage:`url:${Image}`, backgroundSize:"cover", backgroundPosition:"center"}}>
-               <div className="hero-overlay bg-opacity-60"></div>
-               <div className="hero-content text-center text-neutral-content">
-               <div className="max-w-md">
-                    <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                    <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button className="btn btn-primary">Get Started</button>
-               </div>
-               </div>
+               <div className="container mx-w-auto">
+               <div className="hero min-h-screen " style={{backgroundImage: `url(https://i.ibb.co/Y0j5mZM/louis-hansel-v3-Ol-BE6-fh-U-unsplash.jpg)`,backgroundPosition:'center'}}>
+                    <div className="hero-overlay bg-opacity-60"></div>
+                    <div className="hero-content text-center text-neutral-content">
+                    <div className="max-w-md">
+                         <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+                         <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                         <button className="btn btn-primary">Get Started</button>
+                    </div>
+                    </div>
+                    </div>
                </div>
                {/* dynamic api site */}
                <div className="text-center mt-10">

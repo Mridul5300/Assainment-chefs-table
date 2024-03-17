@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 import Cart from './Card/Cart';
 
-const Carts = ({handle}) => {
+const Carts = ({handle,  currentHandle, currentcoook}) => {
      
 
 
@@ -21,28 +21,32 @@ const Carts = ({handle}) => {
                     <hr />
                <div>
                {
-                         handle.map(cart => <Cart key={cart.id}cart={cart}></Cart>)
+                         handle.map(cart => <Cart key={cart.id}   currentHandle={currentHandle} cart={cart}></Cart>)
                     }
                </div>
                </div>
-                <hr />
+               <hr />
+               <h2 className='text-2xl mb-3 text-center'>Currently cooking:{currentcoook.length}</h2>
+               <hr />
                <div>
-                    <h2 className='text-2xl mb-3 text-center'>Currently cooking:</h2>
-               </div>
-               <hr />
-               {/* current section */}
-               <div  className='flex gap-12'>
-               <h2>Name</h2>
-               <h3>Time</h3>
-               <h4>Calories</h4>
-               </div>
-               <hr />
+                    <div className='flex md:gap-10 gap-20'>
+                         <h2>Name</h2>
+                         <h3 className='ml-3'>Time</h3>
+                         <h4>Calories</h4>
+                    </div>
+                    </div>
+                    <hr />
+                {
+                    currentcoook.map((cart,idx) => <Cart key={idx} cart={cart} ></Cart>)
+                }
           </div>
      );
 };
 
 Carts.propTypes = {
-     handle:PropTypes.array
+     handle:PropTypes.array,
+     currentcoook : PropTypes.array,
+     currentHandle : PropTypes.func
 }
 
 export default Carts;
