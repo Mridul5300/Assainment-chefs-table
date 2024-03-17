@@ -13,7 +13,13 @@ function App() {
 
   const handleEvent = cart => {
         const newHandle = [...handle, cart];
-        setHandle(newHandle);
+        const isExist = handle.find(item => item.recipe_id == cart.recipe_id);
+        if(!isExist) {
+          setHandle(newHandle)
+        }
+      else{
+        alert("already exicst")
+      }  
   }
 
   const currentHandle = current => {

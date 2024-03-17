@@ -26,7 +26,7 @@ const Carts = ({handle,  currentHandle, currentcoook}) => {
                </div>
                </div>
                <hr />
-               <h2 className='text-2xl mb-3 text-center'>Currently cooking:{currentcoook.length}</h2>
+               <h2 className='text-2xl mb-3 text-center'>Currently cooking: {currentcoook.length}</h2>
                <hr />
                <div>
                     <div className='flex md:gap-10 gap-20'>

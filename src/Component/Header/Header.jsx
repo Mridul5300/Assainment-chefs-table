@@ -35,13 +35,14 @@ const Header = () => {
           </div>
           {/* Hero Banner Section */}
                <div className="container mx-w-auto">
-               <div className="hero min-h-screen " style={{backgroundImage: `url(https://i.ibb.co/Y0j5mZM/louis-hansel-v3-Ol-BE6-fh-U-unsplash.jpg)`,backgroundPosition:'center'}}>
+               <div className="hero min-h-screen  " style={{backgroundImage: `url(https://i.ibb.co/Y0j5mZM/louis-hansel-v3-Ol-BE6-fh-U-unsplash.jpg)`,backgroundPosition:'center'}}>
                     <div className="hero-overlay bg-opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
-                         <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                         <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                         <button className="btn btn-primary">Get Started</button>
+                         <h1 className="mb-5 text-3xl font-extrabold">Discover an exceptional cooking class tailored for you!</h1>
+                         <p className="mb-5">The Teaching Kitchen is a year-long nuts-and-bolts food business course designed to share our model and best practices. Led by Teaching Kitchen Executive Chef Evelyn García and Chef Brianne Ross, the tailored curriculum, goal setting, kitchen consultations, technical assistance.</p>
+                         <button className="btn bg-green-500 rounded-full">Explore Now</button>
+                         <button className=" btn bg-inherit text-white rounded-full mx-4">Our Feedback</button>
                     </div>
                     </div>
                     </div>
